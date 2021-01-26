@@ -1,6 +1,6 @@
 <?php
 if ( defined('STDIN') ) {
-    $_GET['id'] = $argv[1];
+$_GET['id'] = $argv[1];
 }
 
 require_once "data.php";
@@ -28,7 +28,7 @@ $selectedArticle = &getArticleById($articleId);
 
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$selectedArticle["title"]?></a>
+        <h1 class="article-list-box__title"><?=$selectedArticle["title"]?>
         </h1>
 
 
@@ -43,7 +43,11 @@ $selectedArticle = &getArticleById($articleId);
             <script type="text/x-template"><?=$selectedArticle['body']?></script>
             <div class="toast-ui-viewer"></div>
         </div>
-    </div>
+
+        <div class="article-list-tags">
+            <?=getArticleTagsHtml($article["id"])?>
+        </div>
+    </div>`
 </section>
 
 
@@ -52,7 +56,7 @@ $selectedArticle = &getArticleById($articleId);
         <div id="disqus_thread"></div>
         <script>
             var disqus_config = function () {
-                this.page.url ='https://b.yrongs.com/article_detail_<?=$articleId?>.html';
+                this.page.url = 'https://b.yrongs.com/article_detail_<?=$articleId?>.html';
                 this.page.identifier = 'article_detail_<?=$articleId?>.html';
             };
             (function () { // DON'T EDIT BELOW THIS LINE
