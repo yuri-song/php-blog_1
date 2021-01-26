@@ -47,7 +47,7 @@ $selectedArticle = &getArticleById($articleId);
         <div class="article-list-tags">
             <?=getArticleTagsHtml($article["id"])?>
         </div>
-    </div>`
+    </div>
 </section>
 
 
@@ -69,3 +69,7 @@ $selectedArticle = &getArticleById($articleId);
         </script>
     </div>
 </section>
+
+<?php
+require_once "foot.php";
+?>

@@ -38,11 +38,11 @@
   <!-- 토스트 ui 끝 -->
 
 
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/index.css">
 
-  <script src="common.js"></script>
-  <script src="index.js" defer></script>
+  <script src="/js/common.js"></script>
+  <script src="/js/index.js" defer></script>
 
 
   <script id="dsq-count-scr" src="//phpblog-5.disqus.com/count.js" async></script>

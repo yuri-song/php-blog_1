@@ -1,4 +1,3 @@
-  
 <?php
 require_once "data.php";
 
@@ -80,6 +79,7 @@ function adaptForStatic($distFileName) {
 
 $originFiles = getFiles();
 
+@rename("docs/CNAME", "CNAME");
 deleteDirectory("docs");
 
 foreach ( $originFiles as $index => $originFile ) {
@@ -91,3 +91,5 @@ foreach ( $originFiles as $index => $originFile ) {
 
     compile($originFile);
 }
+
+@rename("CNAME", "docs/CNAME");
