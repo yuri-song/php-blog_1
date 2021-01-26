@@ -1,6 +1,8 @@
 <?php
 require_once "data.php";
 require_once "head.php";
+
+$articles = &getArticles();
 ?>
 <link rel="stylesheet" href="common.css">
 <link rel="stylesheet" href="index.css">
@@ -24,11 +26,7 @@ require_once "head.php";
   <div class="con">
     <div class="article-list-box">
       <ul>
-        <?php for ( $i = 6; $i >= 1; $i-- ) { ?>
-        <?php
-        $articleVarName = "article" . $i;
-        $article = $$articleVarName;
-       ?>
+      <?php foreach ( $articles as $article ) { ?>
         <li>
           <h1 class="article-list-box__title"><a
               href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
@@ -36,7 +34,9 @@ require_once "head.php";
           <div class="article-list-box__writer">
             <span><?=$article["writerName"]?></span>
             <span><?=$article["writerAvatar"]?></span>
-          </div>
+          </div>          
+          <div class="article-list-box__tags">
+            <?=getArticleTagsHtml($article["id"])?>
           <div class="article-list-box__body">
             <script type="text/x-template"><?=$article['body']?></script>
             <div class="toast-ui-viewer"></div>

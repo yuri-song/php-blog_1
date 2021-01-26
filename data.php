@@ -1,15 +1,18 @@
 <?php
+require_once "util.php";
+require_once "app.php";
+
 $siteTitle = "yrong_blog";
 
-// 5번
-
+// 게시물 4
 $article6 = [];
 $article6["id"] = 6;
 $article6["title"] = "Swiper_루프 적용";
 $article6["regDate"] = "2020-01-14 02:00";
 $article6["writerName"] = "송유리";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article6["body"] = <<<EOT
+$article6["tags"] = ["JS" , "SWIPER"];
+$article6["body"] = <<<'EOT'
 # Swiper 루프 (HTML)
 ```html
 <<!--REPLACE:script-->>
@@ -99,7 +102,8 @@ $article5["title"] = "Swiper_분수 적용";
 $article5["regDate"] = "2020-01-14 02:00";
 $article5["writerName"] = "송유리";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["body"] = <<<EOT
+$article5["tags"] = ["JS" , "SWIPER"];
+$article5["body"] = <<<'EOT'
 # Swiper 분수 (HTML)
 ```html
 <<!--REPLACE:script-->>
@@ -185,7 +189,8 @@ $article4["title"] = "Swiper_게이지바 적용";
 $article4["regDate"] = "2020-01-13 00:57";
 $article4["writerName"] = "송유리";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article4["body"] = <<<EOT
+$article4["tags"] = ["JS" , "SWIPER"];
+$article4["body"] = <<<'EOT'
 # Swiper 게이지바 (HTML)
 ```html
 <<!--REPLACE:script-->>
@@ -271,7 +276,8 @@ $article3["title"] = "Swiper_페이지바 적용";
 $article3["regDate"] = "2020-01-13 00:57";
 $article3["writerName"] = "송유리";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["body"] = <<<EOT
+$article3["tags"] = ["JS" , "SWIPER"];
+$article3["body"] = <<<'EOT'
 # Swiper 페이지바 (HTML)
 ```html
 <<!--REPLACE:script-->>
@@ -349,7 +355,8 @@ $article2["title"] = "Swiper_버튼 적용";
 $article2["regDate"] = "2020-01-12 17:50";
 $article2["writerName"] = "송유리";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article2["body"] = <<<EOT
+$article2["tags"] = ["JS" , "SWIPER"];
+$article2["body"] = <<<'EOT'
 # Swiper 버튼 (HTML)
 ```html
 <<!--REPLACE:script-->>
@@ -429,7 +436,8 @@ $article1["title"] = "Swiper 사용법";
 $article1["regDate"] = "2020-01-12 14:49";
 $article1["writerName"] = "송유리";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article1["body"] = <<<EOT
+$article1["tags"] = ["JS" , "SWIPER"];
+$article1["body"] = <<<'EOT'
 # Swiper 사용법(HTML)
 ```html
 <<!--REPLACE:script-->>
@@ -490,7 +498,35 @@ nmo45DTXEcM
 ```
 EOT;
 
-if ( isset($articleId) ) {
-  $articleVarName = "article" . $articleId;
-  $selectedArticle = $$articleVarName;
+// 데이터 정리
+$maxArticleId = getMaxArticleId();
+
+$_allArticles = [];
+$_tags = [];
+
+for ( $i = $maxArticleId; $i > 0; $i-- ) {
+    $varName = 'article' . $i;
+
+    if ( isset($$varName) ) {
+        $_allArticles[${$varName}['id']] = &$$varName;
+
+        foreach ( $_allArticles[${$varName}['id']]['tags'] as $tag ) {
+            $_tags[] = $tag;
+        }
+    }
+}
+
+$_tags = array_unique($_tags);
+sort($_tags);
+
+$_allArticlesByTag = [];
+
+foreach ( $_tags as $tag ) {
+    $_allArticlesByTag[$tag] = [];
+
+    foreach ( $_allArticles as $article ) {
+        if ( in_array($tag, $article['tags']) ) {
+            $_allArticlesByTag[$tag][$article['id']] = $article;
+        }
+    }
 }
