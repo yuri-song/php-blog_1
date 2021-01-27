@@ -7,12 +7,16 @@ require_once "data.php";
 require_once "head.php";
 
 $articleId = $_GET['id'];
-$selectedArticle = &getArticleById($articleId);
+$selectedArticle = &getForPrintArticleById($articleId);
+$pageTitle = $selectedArticle['pageTitle'];
+$pageThumbUrl = $selectedArticle['pageThumbUrl'];
+$pageDescription = $selectedArticle['pageDescription'];
+$pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
 ?>
 
 
-<link rel="stylesheet" href="common.css">
-<script src="common.js" defer></script>
+<link rel="stylesheet" href="css/common.css">
+<script src="js/common.js" defer></script>
 
 
 <section class="section-title con-min-width">
