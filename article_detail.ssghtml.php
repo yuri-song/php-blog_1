@@ -47,7 +47,6 @@ $pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
             <script type="text/x-template"><?=$selectedArticle['body']?></script>
             <div class="toast-ui-viewer"></div>
         </div>
-
         <div class="article-list-tags">
             <?=getArticleTagsHtml($article["id"])?>
         </div>
