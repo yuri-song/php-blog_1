@@ -56,7 +56,7 @@
     <div class="con height-100p flex flex-jc-sb">
       <a href="index.ssghtml.php" class="logo">
         <span>💙</span>
-        <span>yruong_blog</span>
+        <span>yrong_blog</span>
       </a>
       <nav class="top-bar__menu-box-1 height-100p">
         <ul class="flex height-100p">
