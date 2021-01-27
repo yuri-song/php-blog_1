@@ -3,8 +3,8 @@ require_once "data.php";
 require_once "head.php";
 ?>
 
-<link rel="stylesheet" href="common.css">
-<script src="common.js" defer></script>
+<link rel="stylesheet" href="css/common.css">
+<script src="js/common.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
