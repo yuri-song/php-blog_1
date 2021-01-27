@@ -3,7 +3,7 @@ require_once "util.php";
 require_once "app.php";
 
 $siteTitle = "yrong_blog";
-$siteDescription = "송유리의 기술 블로그 입니다.";
+$siteDescription = "yrong 블로그 입니다.";
 $siteKeywordsStr = "JS, SWIPER";
 $siteName = "송유리";
 $siteThumbUrl = "https://yuri-song.github.io/logo_image/image/main.jpg";
@@ -28,6 +28,7 @@ $article6["regDate"] = "2020-01-14 02:00";
 $article6["writerName"] = "송유리";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article6["tags"] = ["JS" , "SWIPER"];
+$article6["pageTitle"] = "SWIPER";
 $article6["body"] = <<<'EOT'
 # Swiper 루프 (HTML)
 ```html
@@ -119,6 +120,7 @@ $article5["regDate"] = "2020-01-14 02:00";
 $article5["writerName"] = "송유리";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article5["tags"] = ["JS" , "SWIPER"];
+$article5["pageTitle"] = "SWIPER";
 $article5["body"] = <<<'EOT'
 # Swiper 분수 (HTML)
 ```html
@@ -206,6 +208,7 @@ $article4["regDate"] = "2020-01-13 00:57";
 $article4["writerName"] = "송유리";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article4["tags"] = ["JS" , "SWIPER"];
+$article4["pageTitle"] = "SWIPER";
 $article4["body"] = <<<'EOT'
 # Swiper 게이지바 (HTML)
 ```html
@@ -293,6 +296,7 @@ $article3["regDate"] = "2020-01-13 00:57";
 $article3["writerName"] = "송유리";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["tags"] = ["JS" , "SWIPER"];
+$article3["pageTitle"] = "SWIPER";
 $article3["body"] = <<<'EOT'
 # Swiper 페이지바 (HTML)
 ```html
@@ -372,6 +376,7 @@ $article2["regDate"] = "2020-01-12 17:50";
 $article2["writerName"] = "송유리";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["tags"] = ["JS" , "SWIPER"];
+$article2["pageTitle"] = "SWIPER";
 $article2["body"] = <<<'EOT'
 # Swiper 버튼 (HTML)
 ```html
@@ -453,6 +458,7 @@ $article1["regDate"] = "2020-01-12 14:49";
 $article1["writerName"] = "송유리";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["tags"] = ["JS" , "SWIPER"];
+$article1["pageTitle"] = "SWIPER";
 $article1["body"] = <<<'EOT'
 # Swiper 사용법(HTML)
 ```html
