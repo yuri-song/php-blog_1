@@ -2,17 +2,17 @@
 require_once "util.php";
 require_once "app.php";
 
-$siteTitle = "디자이너 홍길동";
-$siteDescription = "디자이너 홍길동의 기술 블로그 입니다.";
-$siteKeywordsStr = "CSS, HTML, JS";
-$siteName = "DESIGN LEMON";
-$siteThumbUrl = "https://ssg-2020-12.oa.gg/img/logo/logo_opengraph.png";
+$siteTitle = "yrong_blog";
+$siteDescription = "송유리의 기술 블로그 입니다.";
+$siteKeywordsStr = "JS, SWIPER";
+$siteName = "송유리";
+$siteThumbUrl = "https://yuri-song.github.io/logo_image/image/main.jpg";
 
 // 태그정보 시작
 $tagInfos = [
     "js" => [
-        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
-        //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
+        "pageThumbUrl" => "https://yuri-song.github.io/logo_image/image/main1.jpg"
+        "pageDescription" => "자바스크립트 스와이퍼 관련 강좌 입니다."
     ],
     "html" => [
         //"pageThumbUrl" => "html 관련 글 전용 이미지"
