@@ -12,7 +12,7 @@ $siteThumbUrl = "https://yuri-song.github.io/logo_image/image/main.jpg";
 $tagInfos = [
     "js" => [
         "pageThumbUrl" => "https://yuri-song.github.io/logo_image/image/main1.jpg"
-        "pageDescription" => "자바스크립트 스와이퍼 관련 강좌 입니다."
+        //"pageDescription" => "자바스크립트 스와이퍼 관련 강좌 입니다."
     ],
     "html" => [
         //"pageThumbUrl" => "html 관련 글 전용 이미지"
