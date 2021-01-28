@@ -10,15 +10,103 @@ $siteThumbUrl = "https://yuri-song.github.io/logo_image/image/main.jpg";
 
 // 태그정보 시작
 $tagInfos = [
-    "js" => [
-        "pageThumbUrl" => "https://yuri-song.github.io/logo_image/image/main1.jpg"
-        //"pageDescription" => "자바스크립트 스와이퍼 관련 강좌 입니다."
-    ],
-    "html" => [
-        //"pageThumbUrl" => "html 관련 글 전용 이미지"
-    ]
+  "flex" => [
+    "pageThumbUrl" => "https://yuri-song.github.io/logo_image/image/main1.jpg",
+    //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
+],
 ];
 // 태그정보 끝
+
+/// 게시물 5 
+$article7 = [];
+$article7["id"] = 7;
+$article7["title"] = "Swiper_Auto 적용";
+$article7["regDate"] = "2020-01-29 12:43";
+$article7["writerName"] = "송유리";
+$article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article7["tags"] = ["JS" , "SWIPER"];
+$article7["pageTitle"] = "SWIPER";
+$article7["body"] = <<<'EOT'
+# Swiper Auto (HTML)
+```html
+<section class="section-1">
+<div>
+<h1>스와이퍼 1</h1>
+<div class="my-slider my-slider-1">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<!-- Add Arrows -->
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+</div>
+</section>
+</<!--REPLACE:script-->>
+```
+
+# Swiper Auto (js)
+```javascript
+function MySlider__init(no) {
+var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
+spaceBetween: 30,
+centeredSlides: true,
+autoplay: {
+delay: 2500,
+disableOnInteraction: false,
+},
+pagination: {
+el: '.swiper-pagination',
+clickable: true,
+},
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
+}
+
+MySlider__init(1);
+
+```
+
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/jOMYxmR?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고영상
+```youtube
+yB1J6Mby7LU
+```
+
+EOT;
+
 
 // 게시물 4
 $article6 = [];

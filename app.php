@@ -101,7 +101,7 @@ function &getForPrintArticleById($id) {
     $tagInfo = &getForPrintTagInfo($article['tags'][0]);
 
     if ( !isset($article['pageTitle']) ) {
-        $article['pageTitle'] = $article['pageTitle'];   
+        $article['pageTitle'] = $article['title'];   
     }
 
     if ( !isset($article['pageThumbUrl']) ) {
