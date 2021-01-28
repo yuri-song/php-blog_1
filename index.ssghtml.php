@@ -28,8 +28,7 @@ $articles = &getArticles();
       <ul>
         <?php foreach ( $articles as $article ) { ?>
         <li>
-          <h1 class="article-list-box__title"><a href="<?=getArticleLink($article["id"])?>"><?=$article["title"]?></a>
-          </h1>
+          <h1 class="article-list-box__title"><a href="<?=getArticleLink($article["id"])?>"><?=$article["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article["writerName"]?></span>
@@ -37,11 +36,11 @@ $articles = &getArticles();
           </div>
           <div class="article-list-box__tags">
             <?=getArticleTagsHtml($article["id"])?>
-        </div>
-            <div class="article-list-box__body">
-              <script type="text/x-template"><?=$article['body']?></script>
-              <div class="toast-ui-viewer"></div>
-            </div>
+          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template"><?=$article['body']?></script>
+            <div class="toast-ui-viewer"></div>
+          </div>
         </li>
         <?php } ?>
       </ul>

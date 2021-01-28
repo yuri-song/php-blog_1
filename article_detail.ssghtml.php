@@ -1,10 +1,9 @@
 <?php
 if ( defined('STDIN') ) {
-$_GET['id'] = $argv[1];
+    $_GET['id'] = $argv[1];
 }
 
 require_once "data.php";
-require_once "head.php";
 
 $articleId = $_GET['id'];
 $selectedArticle = &getForPrintArticleById($articleId);
@@ -12,6 +11,8 @@ $pageTitle = $selectedArticle['pageTitle'];
 $pageThumbUrl = $selectedArticle['pageThumbUrl'];
 $pageDescription = $selectedArticle['pageDescription'];
 $pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
+
+require_once "head.php";
 ?>
 
 
@@ -32,23 +33,22 @@ $pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
 
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><?=$selectedArticle["title"]?>
-        </h1>
-
+        <h1 class="article-list-box__title"><?=$selectedArticle["title"]?></h1>
 
         <div class="article-list-box__reg-date"><?=$selectedArticle["regDate"]?></div>
-
+        
         <div class="article-list-box__writer">
             <span><?=$selectedArticle["writerName"]?></span>
             <span><?=$selectedArticle["writerAvatar"]?></span>
         </div>
 
+        <div class="article-list-box__tags">
+            <?=getArticleTagsHtml($selectedArticle["id"])?>
+        </div>
+        
         <div class="article-list-box__body">
             <script type="text/x-template"><?=$selectedArticle['body']?></script>
             <div class="toast-ui-viewer"></div>
-        </div>
-        <div class="article-list-tags">
-            <?=getArticleTagsHtml($article["id"])?>
         </div>
     </div>
 </section>
