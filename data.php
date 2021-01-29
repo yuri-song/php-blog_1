@@ -25,7 +25,7 @@ $article7["regDate"] = "2020-01-29 12:43";
 $article7["writerName"] = "송유리";
 $article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article7["tags"] = ["JS" , "SWIPER"];
-$article7["pageTitle"] = "SWIPER";
+$article7["pageTitle"] = "Swiper_Auto 적용";
 $article7["body"] = <<<'EOT'
 # Swiper Auto (HTML)
 ```html
@@ -116,7 +116,7 @@ $article6["regDate"] = "2020-01-14 02:00";
 $article6["writerName"] = "송유리";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article6["tags"] = ["JS" , "SWIPER"];
-$article6["pageTitle"] = "SWIPER";
+$article6["pageTitle"] = "Swiper_루프 적용";
 $article6["body"] = <<<'EOT'
 # Swiper 루프 (HTML)
 ```html
@@ -208,7 +208,7 @@ $article5["regDate"] = "2020-01-14 02:00";
 $article5["writerName"] = "송유리";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article5["tags"] = ["JS" , "SWIPER"];
-$article5["pageTitle"] = "SWIPER";
+$article5["pageTitle"] = "Swiper_분수 적용";
 $article5["body"] = <<<'EOT'
 # Swiper 분수 (HTML)
 ```html
@@ -296,7 +296,7 @@ $article4["regDate"] = "2020-01-13 00:57";
 $article4["writerName"] = "송유리";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article4["tags"] = ["JS" , "SWIPER"];
-$article4["pageTitle"] = "SWIPER";
+$article4["pageTitle"] = "Swiper_게이지바 적용";
 $article4["body"] = <<<'EOT'
 # Swiper 게이지바 (HTML)
 ```html
@@ -384,7 +384,7 @@ $article3["regDate"] = "2020-01-13 00:57";
 $article3["writerName"] = "송유리";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["tags"] = ["JS" , "SWIPER"];
-$article3["pageTitle"] = "SWIPER";
+$article3["pageTitle"] = "Swiper_페이지바 적용";
 $article3["body"] = <<<'EOT'
 # Swiper 페이지바 (HTML)
 ```html
@@ -464,7 +464,7 @@ $article2["regDate"] = "2020-01-12 17:50";
 $article2["writerName"] = "송유리";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["tags"] = ["JS" , "SWIPER"];
-$article2["pageTitle"] = "SWIPER";
+$article2["pageTitle"] = "Swiper_버튼 적용";
 $article2["body"] = <<<'EOT'
 # Swiper 버튼 (HTML)
 ```html
@@ -546,7 +546,7 @@ $article1["regDate"] = "2020-01-12 14:49";
 $article1["writerName"] = "송유리";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["tags"] = ["JS" , "SWIPER"];
-$article1["pageTitle"] = "SWIPER";
+$article1["pageTitle"] = "Swiper 사용법";
 $article1["body"] = <<<'EOT'
 # Swiper 사용법(HTML)
 ```html
