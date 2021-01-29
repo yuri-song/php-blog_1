@@ -10,21 +10,13 @@ $siteThumbUrl = "https://yuri-song.github.io/logo_image/image/main.jpg";
 
 // 태그정보 시작
 $tagInfos = [
-<<<<<<< Updated upstream
+
   "JS" => [
     "pageThumbUrl" => "https://yuri-song.github.io/logo_image/image/main1.jpg",
-    //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
-],
-=======
-    "JS" => [
-        "pageThumbUrl" => "https://yuri-song.github.io/logo_image/image/main1.jpg"
-        //"pageDescription" => "자바스크립트 스와이퍼 관련 강좌 입니다."
-    ],
-    "html" => [
-        //"pageThumbUrl" => "html 관련 글 전용 이미지"
-    ]
->>>>>>> Stashed changes
+    "pageDescription" => "자바스크립트 SWIPER 강좌 입니다.",
+  ],
 ];
+
 // 태그정보 끝
 
 /// 게시물 5 
