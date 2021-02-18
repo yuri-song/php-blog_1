@@ -19,6 +19,178 @@ $tagInfos = [
 
 // 태그정보 끝
 
+/// 게시물 7
+
+$article9 = [];
+$article9["id"] = 9;
+$article9["title"] = "Swiper_마우스 휠 적용";
+$article9["regDate"] = "2020-02-18 16:37";
+$article9["writerName"] = "송유리";
+$article9["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article9["tags"] = ["JS" , "SWIPER"];
+$article9["pageTitle"] = "Swiper_마우스 휠 적용";
+$article9["body"] = <<<'EOT'
+# Swiper Auto (HTML)
+```html
+<section class="section-1">
+<div>
+<h1>스와이퍼 1</h1>
+<div class="my-slider my-slider-1">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+</div>
+</section>
+</<!--REPLACE:script-->>
+```
+
+# Swiper Auto (js)
+```javascript
+function MySlider__init(no) {
+var mySwiper = new Swiper(".my-slider-" + no + " .swiper-container", {
+direction: "vertical",
+slidesPerView: 1,
+spaceBetween: 30,
+mousewheel: true,
+pagination: {
+el: ".swiper-pagination",
+clickable: true
+}
+});
+}
+
+MySlider__init(1);
+
+```
+
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/abmEGLm?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고영상
+```youtube
+BxV8W3seIY4
+```
+
+EOT;
+
+/// 게시물 6
+
+$article8 = [];
+$article8["id"] = 8;
+$article8["title"] = "Swiper_키보드 버튼 적용";
+$article8["regDate"] = "2020-02-09 16:37";
+$article8["writerName"] = "송유리";
+$article8["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article8["tags"] = ["JS" , "SWIPER"];
+$article8["pageTitle"] = "Swiper_키보드 버튼 적용";
+$article8["body"] = <<<'EOT'
+# Swiper Auto (HTML)
+```html
+<section class="section-1">
+<div>
+<h1>스와이퍼 1</h1>
+<div class="my-slider my-slider-1">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/201/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/202/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/203/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/204/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/206/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/208/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/209/1200/500" alt=""></div>
+</div>
+<div class="swiper-slide">
+<div class="img-box"><img src="https://picsum.photos/id/210/1200/500" alt=""></div>
+</div>
+</div>
+<div class="swiper-pagination"></div>
+<!-- Add Arrows -->
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+</div>
+</div>
+</section>
+</<!--REPLACE:script-->>
+```
+
+# Swiper Auto (js)
+```javascript
+function MySlider__init(no) {
+var mySwiper = new Swiper('.my-slider-' + no + ' .swiper-container', {
+sslidesPerView: 1,
+spaceBetween: 30,
+keyboard: {
+enabled: true,
+},
+pagination: {
+el: '.swiper-pagination',
+clickable: true,
+},
+navigation: {
+nextEl: '.swiper-button-next',
+prevEl: '.swiper-button-prev',
+},
+});
+}
+
+MySlider__init(1);
+
+```
+
+# 실습
+```codepen
+https://codepen.io/yurisong/embed/KKgZRqj?height=265&theme-id=light&default-tab=html,result
+```
+
+# 참고영상
+```youtube
+Vx312XUGZgg
+```
+
+EOT;
+
 /// 게시물 5 
 $article7 = [];
 $article7["id"] = 7;

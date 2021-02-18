@@ -57,7 +57,7 @@ function renderCodepen(wrapperId, url) {
   var urlParams = new URLSearchParams(url.split('?')[1]);
   var height = urlParams.get('height');
 
-  el.innerHTML = `<div class="toast-ui-codepen-plugin-wrap"><iframe height="${height}" scrolling="no" src="${url}" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe></div>`;
+  el.innerHTML = `<div class="toast-ui-codepen-plugin-wrap"><iframe height="${300}" scrolling="no" src="${url}" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe></div>`;
 }
 // codepen 플러그인 끝
 
