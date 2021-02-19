@@ -17,6 +17,9 @@ require_once "head.php";
   </h1>
 </section>
 
+<div class="section">
+  <a href="pf.detail.ssghtml.php">모바일 기획 - 1 [패션 어플리케이션 MW]</a>
+</div>
 <?php
 require_once "foot.php";
 ?>

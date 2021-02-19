@@ -20,7 +20,6 @@ $articles = &getArticles();
     </span>
   </h1>
 </section>
-<!-- 4번 -->
 
 <section class="section-latest-articles con-min-width">
   <div class="con">
