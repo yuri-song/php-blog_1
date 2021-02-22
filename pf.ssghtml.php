@@ -21,7 +21,8 @@ require_once "head.php";
 <div class="section">
   <a href="pf.detail.ssghtml.php">모바일 기획 - 1 [패션 어플리케이션 MW]</a>
   <div class="img-box">
-  <img src="https://yuri-song.github.io/logo_image/new/section1.png" alt=""></div>
+  <a href="pf.detail.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/new/section1.png" alt=""></a>
+  </div>
 </div>
 <?php
 require_once "foot.php";

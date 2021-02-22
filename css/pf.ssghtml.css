@@ -1,6 +1,10 @@
+.section {
+    text-align: center;
+}
+
 .section > a {
     font-size: 1.5rem;
-    padding-left: 30px;
+    
 }
 
 .section:hover > a {
@@ -8,7 +12,7 @@
     text-decoration: underline;
 }
 
-.section > .img-box > img {
+.section > .img-box > a > img {
     width: 100%;
     display: block;
 
@@ -16,6 +20,8 @@
 
 .section > .img-box {
     width: 500px;
-    margin-left: 10px;
     margin-top: 20px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
