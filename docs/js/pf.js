@@ -8,7 +8,7 @@ let t1 = gsap.timeline({
     start:"top 10%",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -24,7 +24,7 @@ let t2 = gsap.timeline({
     start:"-=30 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -40,7 +40,7 @@ let t3 = gsap.timeline({
     start:"-=30 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -62,7 +62,7 @@ let t4 = gsap.timeline({
     start:"-=30 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -78,7 +78,7 @@ let t5 = gsap.timeline({
     start:"-=50 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -101,7 +101,7 @@ let t6 = gsap.timeline({
     start:"-=50 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -118,7 +118,7 @@ let t7 = gsap.timeline({
     start:"-=50 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -135,7 +135,7 @@ let t8 = gsap.timeline({
     start:"-=50 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
@@ -152,7 +152,7 @@ let t9 = gsap.timeline({
     start:"-=50 center",
     end:"bottom 85%",
     markers:true,
-    scrub:0.4
+    scrub:0.3
   }
 });
 
