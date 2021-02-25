@@ -1,0 +1,303 @@
+/* 폰트 */
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+html {
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Racing Sans One', cursive;
+}
+
+.con {
+max-width:1920px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+/* page1 */
+.page1 {
+width:1920px;
+height:1080px;
+position:relative;
+}
+
+.page1 > span {
+position: absolute;
+width: 703px;
+height: 362px;
+left: 618px;
+top: 358px;
+font-family: Racing Sans One;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 181px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+/*page2 */
+.page2 {
+width:1920px;
+height:429px;
+position:relative;
+}
+
+/*page3 */
+.page3 {
+width:1920px;
+height:202px;
+position:relative;
+}
+
+/*page4 */
+.page4 {
+width:1920px;
+height:1581px;
+position:relative;
+}
+
+.page4 > img:nth-of-type(2) {
+position: absolute;
+width: 1221px;
+height: 311px;
+left: 255px;
+top: 152px;
+z-index:1;
+}
+
+.page4 > img:nth-of-type(3) {
+position: absolute;
+width: 1179px;
+height: 276px;
+left: 112px;
+top: 570px
+}
+
+/*page5 */
+.page5 {
+width:1920px;
+height:202px;
+position:relative;
+}
+
+
+/*page6 */
+.page6 {
+width:1920px;
+height:1130px;
+position:relative;
+}
+
+.page6 > img:nth-of-type(2) {
+position:absolute;
+top:626px;
+left:126px;
+}
+
+.page6 > div {
+position: absolute;
+width: 532px;
+height: 8px;
+left: 807px;
+top: 172px;
+background: #C4C4C4;
+}
+
+.typing-txt{display: none;}
+
+.typing {  
+position: absolute;
+display: inline-block; 
+animation-name: cursor; 
+animation-duration: 0.3s; 
+animation-iteration-count: infinite; 
+left: 836px;
+font-family: Nanum Pen Script;
+top: 22px;
+font-size: 70px;
+line-height: 87px;
+text-align: center;
+text-transform: uppercase;
+color: #000000
+} 
+@keyframes cursor{ 
+0%{border-right: 1px solid #fff} 
+50%{border-right: 1px solid #000} 
+100%{border-right: 1px solid #fff} 
+}
+
+
+
+/*page7 */
+.page7 {
+width:1920px;
+height:3111px;
+position:relative;
+}
+
+.page7 > span {
+position: absolute;
+width: 1039px;
+height: 102px;
+left: 724px;
+top: 153px;
+font-family: NanumBarunpen;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 51px;
+text-transform: uppercase;
+color: #000000;
+}
+.page7 > img:nth-of-type(2) {
+position: absolute;
+width: 1799px;
+height: 2240px;
+left: 86px;
+top: 418px;
+
+}
+
+.page7 > img:nth-of-type(3) {
+position: absolute;
+width: 1039px;
+height: 102px;
+left: 724px;
+top: 153px;
+}
+.page7 > a > img {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 149px;
+top: 1307px;
+
+
+}
+
+.page7 > a:nth-of-type(2) > img {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 258px;
+top: 1307px;
+}
+
+.page7 > a:nth-of-type(3) > img {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 367px;
+top: 1307px;
+
+}
+
+.page7 > a:nth-of-type(4) > img {
+position: absolute;
+width: 50px;
+height: 50px;
+left: 476px;
+top: 1307px;
+
+}
+
+/* page8 */
+.page8 {
+position: relative;
+width: 1920px;
+height: 202px;
+}
+
+/* page9 */
+.page9 {
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+
+.page9 > img:nth-of-type(2) {
+position: absolute;
+width: 1020px;
+height: 732px;
+left: 793px;
+top: 130px;
+}
+
+/* pag10 */
+.page10 {
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+
+.page10 > img:last-child {
+position: absolute;
+width: 715px;
+height: 723px;
+left: 1085px;
+top: 110px;
+}
+
+/* page11 */
+.page11 {
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+
+.page11 > img:nth-of-type(2) {
+position: absolute;
+width: 1020px;
+height: 732px;
+left: 185px;
+top: 189px;
+
+}
+
+/* pag12 */
+.page12 {
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+
+.page12 > img:last-child {
+position: absolute;
+width: 899px;
+height: 830px;
+left: 994px;
+top: 72px;
+
+}
+
+/* page13 */
+.page13 {
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+
+.page13 > img:nth-of-type(2) {
+position: absolute; 
+width: 1020px;
+height: 729px;
+left: 786px;
+top: 174px;
+}
+/* page14 */
+.page14 {
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+.page14 > img:nth-of-type(2) {
+position: absolute;
+width: 738px;
+height: 789px;
+left: 1085px;
+top: 135px;
+}

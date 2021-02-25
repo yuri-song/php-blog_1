@@ -1,9 +1,9 @@
 <?php
-require_once "data.pf.php";
+require_once "data.odor2.php";
 ?>
 
-<link rel="stylesheet" href="pf.css">
-<script src="pf.js" defer></script>
+<link rel="stylesheet" href="odor2.css">
+<script src="odor2.js" defer></script>
 
 <!-- 제이쿼리 불러오기 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

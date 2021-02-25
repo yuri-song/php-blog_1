@@ -26,9 +26,16 @@ require_once "head.php";
 </div>
 
 <div class="section">
-  <a href="pf/mobile/web-odor.ssghtml.php">웹 리디자인 - 1 [odor]</a>
+  <a href="pf/web/odor/odor.ssghtml.php">웹 리디자인 - 1 [odor]</a>
   <div class="img-box">
-  <a href="pf/mobile/web-odor.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/s.png" alt=""></a>
+  <a href="pf/web/odor/odor.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/s.png" alt=""></a>
+  </div>
+</div>
+
+<div class="section">
+  <a href="pf/web/odor/odor.ssghtml.php">오도어 포트폴리오 </a>
+  <div class="img-box">
+  <a href="pf/odor/1odor.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/pf/100.png" alt=""></a>
   </div>
 </div>
 <?php
