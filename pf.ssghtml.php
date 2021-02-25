@@ -4,7 +4,7 @@ require_once "head.php";
 ?>
 
 <link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/pf.ssghtml.css">
+<link rel="stylesheet" href="css/pf/pf.ssghtml.css">
 <script src="js/common.js" defer></script>
 
 <section class="section-title con-min-width">
