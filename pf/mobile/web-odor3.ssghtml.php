@@ -1,8 +1,8 @@
 <?php
-require_once "data.pf.odor1.php";
+require_once "data.pf.odor3.php";
 ?>
 
-<link rel="stylesheet" href="css/pf/odor1.css">
+<link rel="stylesheet" href="css/pf/odor2.css">
 <script src="js/pf/odor1.js" defer></script>
 
 <!-- 제이쿼리 불러오기 -->

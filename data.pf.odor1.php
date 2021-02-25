@@ -24,7 +24,7 @@
 </div>
 </div>
 <div class="section-3">
-<a href="#">
+<a href="pf/mobile/web-odor2.ssghtml.php">
     <img src="https://yuri-song.github.io/logo_image/re/2-1.png" alt="">
 </a>
 </div>
