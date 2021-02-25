@@ -1,0 +1,46 @@
+/* 노말라이즈*/
+
+html,ul,li {
+    margin:0;
+    padding:0;
+    text-decoration:none;
+  }
+  
+  a {
+    color:inherit;
+    list-style:none;
+  }
+  
+  
+  /* 섹션1 */
+  .con {
+    max-width:1920px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+  
+  }
+  
+  .section-1 {
+    width:1920px;
+    height:1080px;
+  }
+
+  .section-1 > a:first-child > img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    width: 960px;
+    height: 1080px;
+  }
+  
+  .section-1 > a:last-child > img {
+    position: absolute;
+    width: 960px;
+    height:1080px;
+    left:960px;
+    top: 10px;
+    
+  
+  }
