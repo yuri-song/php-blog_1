@@ -24,6 +24,7 @@ html,ul,li {
   .section-1 {
     width:1920px;
     height:1080px;
+    position:relative;
   }
 
   .section-1 > a:first-child > img {
