@@ -2,8 +2,8 @@
 require_once "data.pf.php";
 ?>
 
-<link rel="stylesheet" href="css/pf/mw.css">
-<script src="js/pf/mw.js" defer></script>
+<link rel="stylesheet" href="css/pf.css">
+<script src="js/pf.js" defer></script>
 
 <!-- 제이쿼리 불러오기 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
