@@ -33,11 +33,6 @@
             <img src="https://yuri-song.github.io/logo_image/re/105.png" alt=""></div>
           
         </div>
-        <div class="swiper-slide">
-          <div class="img-box">
-            <img src="https://yuri-song.github.io/logo_image/re/106.png" alt=""></div>
-          
-        </div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
