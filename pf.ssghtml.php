@@ -26,9 +26,9 @@ require_once "head.php";
 </div>
 
 <div class="section">
-  <a href="pf/web/odor/odor.ssghtml.php">웹 리디자인 - 1 [odor]</a>
+  <a href="pf/web/odor/odor1.ssghtml.php">웹 리디자인 - 1 [odor]</a>
   <div class="img-box">
-  <a href="pf/web/odor/odor.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/s.png" alt=""></a>
+  <a href="pf/web/odor/odor1.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/s.png" alt=""></a>
   </div>
 </div>
 

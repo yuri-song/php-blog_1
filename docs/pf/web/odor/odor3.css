@@ -4,6 +4,7 @@
 
 html { 
   font-family: 'Jeju Myeongjo', serif;
+  overflow-x: hidden;
 }
 
 /* 노말라이즈*/
@@ -21,7 +22,8 @@ a {
 
 /* 라이브러리 */ 
 .con {
-  max-width:1920px;
+  min-width:1920px;
+
 }
 
 /* 커스텀 */
@@ -30,6 +32,8 @@ a {
   position:relative;
   width:1920px;
   height:1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-1 > .logo {
@@ -167,7 +171,7 @@ a {
   width: 1593px;
   height: 485px;
   left: 159px;
-  top: 2470px;
+  top: 1870px;
 }
 
 .catagory-bar {

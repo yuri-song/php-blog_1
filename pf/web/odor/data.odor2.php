@@ -19,6 +19,6 @@
     </div>
     <div class="img-box">
       <a href="odor3.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/3-1.png" alt=""></a>
-      <a href="#"><img src="https://yuri-song.github.io/logo_image/re/3-2.png" alt=""></a>
+      <a href="odor3.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/3-2.png" alt=""></a>
     </div>
   </div>
