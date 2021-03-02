@@ -166,11 +166,11 @@ a {
 
 }
 
-.bottom {
+.bottom > img {
   position: absolute;
   width: 1593px;
   height: 485px;
-  left: 159px;
+  left: 0px;
   top: 1870px;
 }
 

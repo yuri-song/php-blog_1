@@ -21,7 +21,7 @@ a {
 
 /* 라이브러리 */ 
 .con {
-  max-width:1920px;
+  min-width:1920px;
 }
 
 /* 커스텀 */
@@ -30,6 +30,8 @@ a {
   position:relative;
   width:1920px;
   height:1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-1 > .logo {
@@ -39,6 +41,12 @@ a {
   left: 158px;
   top: 71px;
 
+}
+
+.logo2 {
+  position: absolute;
+  top: 90px;
+  left: 460px;
 }
 
 .section-1 > .menu-bar {
@@ -148,8 +156,8 @@ a {
   position: absolute;
   width: 537px;
   height: 710px;
-  left: 313px;
-  top: 276px;
+  left: 283px;
+  top: 350px;
 
 }
 
@@ -157,7 +165,8 @@ a {
   position: absolute;
   width: 537px;
   height: 710px;
-  left: 1070px;
-  top: 276px;
+  left: 1100px;
+  top: 350px;
 
 }
+

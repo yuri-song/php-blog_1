@@ -2,35 +2,51 @@
   <div class="section-1">
     <img src="https://yuri-song.github.io/logo_image/re/main.png" alt="">
   </div>
+  <div class="menu-bar">
+    <a href="odor3.ssghtml.php"><span>ODOR MADE</span></a>
+    <a href="odor3.ssghtml.php"><span>NEW ITME</span></a>
+    <a href="odor3.ssghtml.php"><span>BEST ITME</span></a>
+    <a href="odor3.ssghtml.php"><span>UNISEX</span></a>
+    <a href="odor3.ssghtml.php"><span>OUTER</span></a>
+    <a href="odor3.ssghtml.php"><span>TOP</span></a>
+    <a href="odor3.ssghtml.php"><span>PANTS</span></a>
+    <a href="odor3.ssghtml.php"><span>SKIRT</span></a>
+    <a href="odor3.ssghtml.php"><span>BAG</span></a>
+    <a href="odor3.ssghtml.php"><span>SHOES</span></a>
+    <a href="odor3.ssghtml.php"><span>UNDER WEAR</span></a>
+    <a href="odor3.ssghtml.php"><span>ACC</span></a>
+    <a href="odor3.ssghtml.php"><span>JEWELRY</span></a>
+    <a href="odor3.ssghtml.php"><span>COMMNUITY</span></a>
+  </div>
   <div class="section-2">
     <div class="swiper-container">
       <div class="swiper-wrapper">
+       <div class="swiper-slide">
+                    <div class="img-box">
+            <img src="https://yuri-song.github.io/logo_image/re/103.png" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+                    <div class="img-box">
+            <img src="https://yuri-song.github.io/logo_image/re/104.png" alt=""></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-box">
+            <img src="https://yuri-song.github.io/logo_image/re/105.png" alt=""></div>
+          
+        </div>
         <div class="swiper-slide">
           <div class="img-box">
             <img src="https://yuri-song.github.io/logo_image/re/100.png" alt=""></div>
           
         </div>
         <div class="swiper-slide">
-                    <div class="img-box">
+          <div class="img-box">
             <img src="https://yuri-song.github.io/logo_image/re/101.png" alt=""></div>
+          
         </div>
         <div class="swiper-slide">
-                    <div class="img-box">
+          <div class="img-box">
             <img src="https://yuri-song.github.io/logo_image/re/102.png" alt=""></div>
-        </div>
-        <div class="swiper-slide">
-          <div class="img-box">
-            <img src="https://yuri-song.github.io/logo_image/re/103.png" alt=""></div>
-          
-        </div>
-        <div class="swiper-slide">
-          <div class="img-box">
-            <img src="https://yuri-song.github.io/logo_image/re/104.png" alt=""></div>
-          
-        </div>
-        <div class="swiper-slide">
-          <div class="img-box">
-            <img src="https://yuri-song.github.io/logo_image/re/105.png" alt=""></div>
           
         </div>
       </div>
@@ -41,6 +57,12 @@
   <div class="section-3">
     <a href="odor2.ssghtml.php">
       <img src="https://yuri-song.github.io/logo_image/re/2-1.png" alt="">
+    </a>
+    <a href="odor2.ssghtml.php">
+      <img src="https://yuri-song.github.io/logo_image/re/2-2.png" alt="">
+    </a>
+    <a href="odor2.ssghtml.php">
+      <img src="https://yuri-song.github.io/logo_image/re/2-3.png" alt="">
     </a>
   </div>
   <div class="section-4">
@@ -293,6 +315,9 @@
           </a>
         </div>
       </div>
+    </div>
+    <div class="review">
+      <span>ANGEL’S REVIEW</span>
     </div>
   </div>
 

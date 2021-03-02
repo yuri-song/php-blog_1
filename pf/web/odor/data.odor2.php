@@ -3,6 +3,9 @@
     <div class="logo">
       <a href="odor2.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/LOGO.png" alt=""></a>
     </div>
+    <div class="logo2">
+      <a href="odor1.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/0.png" alt=""></a>
+    </div>
     <div class="menu-bar">
       <span>FOUND</span>
       <span>O</span>
@@ -21,4 +24,3 @@
       <a href="odor3.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/3-1.png" alt=""></a>
       <a href="odor3.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/3-2.png" alt=""></a>
     </div>
-  </div>
