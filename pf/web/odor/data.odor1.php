@@ -2,6 +2,9 @@
   <div class="section-1">
     <img src="https://yuri-song.github.io/logo_image/re/main.png" alt="">
   </div>
+  <div class="logo">
+    <a href="odor2.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/LOGO.png" alt=""></a>
+  </div>
   <div class="menu-bar">
     <a href="odor3.ssghtml.php"><span>ODOR MADE</span></a>
     <a href="odor3.ssghtml.php"><span>NEW ITME</span></a>

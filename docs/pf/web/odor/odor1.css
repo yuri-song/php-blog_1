@@ -1,4 +1,14 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+html { 
+ font-family: 'Jeju Myeongjo', serif;
+}
+
 /* 노말라이즈*/
+
+html {
+  overflow-x: hidden;
+}
 
 html,
 ul,
@@ -27,11 +37,23 @@ a {
   width: 1920px;
 }
 
+.logo {
+  z-index: 1;
+  position: absolute;
+  top: 205px ;
+  left: 630px;
+}
+
+.logo > a > img {
+  width: 120px;
+  height: 30px;
+}
+
 .menu-bar {
   position: absolute;
   left: 165px;
   top: 301px;
-  font-family: JejuMyeongjo;
+  font-family:Jeju Myeongjo;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

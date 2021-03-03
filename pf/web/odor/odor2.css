@@ -8,6 +8,11 @@ html {
 
 /* 노말라이즈*/
 
+
+html {
+  overflow-x: hidden;
+}
+
 html,ul,li {
   margin:0;
   padding:0;
@@ -45,13 +50,18 @@ a {
 
 .logo2 {
   position: absolute;
-  top: 90px;
-  left: 460px;
+  top: 105px;
+  left: 440px;
+}
+
+.logo2 > a > img {
+  height: 30px;
+  width: 90px;
 }
 
 .section-1 > .menu-bar {
   position: relative;
-  width: 609px;
+  width: 1000px;
   height: 27px;
   left: 158px;
   top: 173px;
@@ -60,48 +70,51 @@ a {
   line-height:25px;
 }
 
-.section-1 > .menu-bar > span:nth-of-type(2) {
-  position: absolute;
-  width: 7px;
-  height: 10px;
+.section-1 > .menu-bar > a > span {
+  margin-right: 30px;
+}
+
+.section-1 > .menu-bar > a > span:first-child {
+  display: inline-block;
+}
+
+.section-1 > .menu-bar > a > span:first-child > p {
+  display: inline-block;
   font-size: 10px;
-  top:-5px;
-  left:85px;
-}
-
-.section-1 > .menu-bar > span:nth-of-type(3) {
-  position: absolute;
-  width: 7px;
-  height: 10px;
-  left: 88px;
   top: -10px;
-  font-size:10px;
+  position: absolute;
 }
 
-.section-1 > .menu-bar > span:nth-of-type(4) {
+.section-1 > .menu-bar > a > span:first-child > p:last-child {
+  top:-15px;
+  left:88px;
+}
+
+
+.section-1 > .menu-bar > a >  span:nth-of-type(4) {
   position: absolute;
   width: 110px;
   height: 25px;
   left: 115px;
 }
 
-.section-1 > .menu-bar > span:nth-of-type(5)
+.section-1 > .menu-bar > a>  span:nth-of-type(5)
 {
   position:absolute;
   left:245px;
 }
 
-.section-1 > .menu-bar > span:nth-of-type(6) {
+.section-1 > .menu-bar > a>  span:nth-of-type(6) {
   position:absolute;
   left:325px;
 }
 
-.section-1 > .menu-bar > span:nth-of-type(7) {
+.section-1 > .menu-bar >a> span:nth-of-type(7) {
   position:absolute;
   left:476px;
 }
 
-.section-1 > .menu-bar > span:hover {
+.section-1 > .menu-bar >a> span:hover {
   color:#a9a9a9;
   cursor:pointer;
 }
