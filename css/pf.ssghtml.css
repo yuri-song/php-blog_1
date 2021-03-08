@@ -1,28 +1,78 @@
-.section {
+.img {
     text-align: center;
-    margin: 20px;
-}
-
-.section > a {
-    font-size: 1.5rem;
-    
-}
-
-.section:hover > a {
-    color:skyblue;
-    text-decoration: underline;
-}
-
-.section > .img-box > a > img {
-    width: 100%;
+    width: 1064px;
+    height: 300px;
     display: block;
-
-}
-
-.section > .img-box {
-    width: 500px;
-    margin-top: 20px;
+  }
+  
+  .section {
+    margin: 20px 40px;
+    display:inline-block;
+    position:relative;
+    text-align: center;
+  }
+  
+  .section > .img-box {
     display:block;
+  }
+
+  .section > .img-box img {
+    display: block;
+    width: 100%;
+  }
+  
+  .section > .img-box > div  {
+    width:400px;
+    height:0px;
+    background-color:rgba(0,0,0,0.6);
+    position:absolute;
+    bottom:0;
+    left:0;
+    opacity:0;
+  
+  }
+  
+  .section > .img-box:hover > div  {
+    display:block;
+    opacity:1;
+    bottom:0;
+    height:250px;
+    transition:all 0.5s;
+  }
+  
+  
+  
+  .section > .img-box > a > img {
+    width:400px;
+    display:block;
+    height:250px;  
+  }
+  
+  .name {
+    color:white;
+    font-size:25px;
+    display:flex;
+    margin-top:95px;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  button {
+    margin:25px 10px;
+    padding:10px;
+    border-radius:5px;
+    cursor:pointer;
+    border-color:white;
+    background-color:rgba(0,0,0,0.3);
+    color:white;
+    
+  }
+
+  .bar {
+    width: 50px;
+    height: 2px;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
-}
+    margin-top:10px;
+  }
