@@ -26,7 +26,7 @@ require_once "head.php";
       <div>
         <span class="name">패션애플리케이션 'WM'</span>
         <div class="bar"></div>
-        <a href="pf/mobile/app-mw.ssghtml.php"><button>프로세스 페이지</button></a>
+        <a href="pf/mobile/app-mw.ssghtml.php"><button>PROCESS</button></a>
       </div>
     </div>
   </div>
@@ -37,8 +37,8 @@ require_once "head.php";
       <div>
         <span class="name">오도어 리뉴얼 디자인</span>
         <div class="bar"></div>
-        <a href="pf/web/odor/odor1.ssghtml.php"><button>메인페이지</button></a>
-        <a href="pf/web/odor/odor.ssghtml.php"><button>프로세스 페이지</button></a>
+        <a href="pf/web/odor/odor1.ssghtml.php"><button>WEBSITE</button></a>
+        <a href="pf/web/odor/odor.ssghtml.php"><button>PROCESS</button></a>
       </div>
     </div>
   </div>

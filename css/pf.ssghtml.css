@@ -21,6 +21,8 @@
     width: 100%;
   }
   
+
+
   .section > .img-box > div  {
     width:400px;
     height:0px;
@@ -59,12 +61,13 @@
   
   button {
     margin:25px 10px;
-    padding:10px;
-    border-radius:5px;
+    padding:10px 20px;
+    border-radius:0px;
     cursor:pointer;
     border-color:white;
-    background-color:rgba(0,0,0,0.3);
+    background-color:black;
     color:white;
+    border-style:solid;
     
   }
 
