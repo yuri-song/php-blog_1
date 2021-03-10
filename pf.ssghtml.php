@@ -18,32 +18,51 @@ require_once "head.php";
   </h1>
 </section>
 
-<div class="con"><div class="img">
-  <div class="section section-1">
-    <div class="img-box">
-      <a href="pf/mobile/app-mw.ssghtml.php">
-        <img src="https://yuri-song.github.io/logo_image/new/section1.png" alt=""></a>
-      <div>
-        <span class="name">패션애플리케이션 'WM'</span>
-        <div class="bar"></div>
-        <a href="pf/mobile/app-mw.ssghtml.php"><button>PROCESS</button></a>
+<div class="con">
+  <div class="img">
+    <div class="section section-1">
+      <div class="img-box">
+        <a href="pf/mobile/app-mw.ssghtml.php">
+          <img src="https://yuri-song.github.io/logo_image/new/section1.png" alt=""></a>
+        <div>
+          <span class="name">패션애플리케이션 'WM'</span>
+          <div class="bar"></div>
+          <a href="pf/mobile/app-mw.ssghtml.php"><button>PROCESS</button></a>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="section section-2">
-    <div class="img-box">
-      <a href="pf/web/odor/odor1.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/pro/333.png" alt=""></a>
-      <div>
-        <span class="name">오도어 리뉴얼 디자인</span>
-        <div class="bar"></div>
-        <a href="pf/web/odor/odor1.ssghtml.php"><button>WEBSITE</button></a>
-        <a href="pf/web/odor/odor.ssghtml.php"><button>PROCESS</button></a>
+    <div class="section section-2">
+      <div class="img-box">
+        <a href="pf/web/odor/odor1.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/pro/333.png"
+            alt=""></a>
+        <div>
+          <span class="name">오도어 리뉴얼 디자인</span>
+          <div class="bar"></div>
+          <a href="pf/web/odor/odor1.ssghtml.php"><button>WEBSITE</button></a>
+          <a href="pf/web/odor/odor.ssghtml.php"><button>PROCESS</button></a>
+        </div>
       </div>
     </div>
-  </div>
-
 </div>
+
+<div class="img">
+
+<div class="section section-1">
+      <div class="img-box">
+        <a href="pf/mobile1/index.ssghtml.php">
+          <img src="https://yuri-song.github.io/logo_image/mobile1/0.png" alt=""></a>
+        <div>
+          <span class="name">여행애플리케이션 'TT'</span>
+          <div class="bar"></div>
+          <a href="pf/mobile1/index.ssghtml.php"><button>PROCESS</button></a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
 </div>
 
 
