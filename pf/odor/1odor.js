@@ -1,5 +1,7 @@
 console.clear;
 
+const markers = false;
+
 gsap.registerPlugin(ScrollTrigger);
 
 let t1 = gsap.timeline({

@@ -1,5 +1,7 @@
 console.clear;
 
+const markers = false;
+
 gsap.registerPlugin(ScrollTrigger);
 
 let t1 = gsap.timeline({
@@ -7,7 +9,7 @@ let t1 = gsap.timeline({
     trigger:".section-2",
     start:"top 10%",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -23,7 +25,7 @@ let t2 = gsap.timeline({
     trigger:".section-3",
     start:"-=30 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -39,7 +41,7 @@ let t3 = gsap.timeline({
     trigger:".section-5",
     start:"-=30 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -61,7 +63,7 @@ let t4 = gsap.timeline({
     trigger:".section-6",
     start:"-=30 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -77,7 +79,7 @@ let t5 = gsap.timeline({
     trigger:".section-8",
     start:"-=50 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -100,7 +102,7 @@ let t6 = gsap.timeline({
     trigger:".section-9",
     start:"-=50 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -117,7 +119,7 @@ let t7 = gsap.timeline({
     trigger:".section-10",
     start:"-=50 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -134,7 +136,7 @@ let t8 = gsap.timeline({
     trigger:".section-11",
     start:"-=50 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
@@ -151,7 +153,7 @@ let t9 = gsap.timeline({
     trigger:".section-12",
     start:"-=50 center",
     end:"bottom 85%",
-    markers:true,
+    markers:markers,
     scrub:0.3
   }
 });
