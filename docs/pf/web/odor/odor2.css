@@ -1,0 +1,185 @@
+/* 폰트 */
+
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+html { 
+  font-family: 'Jeju Myeongjo', serif;
+}
+
+/* 노말라이즈*/
+
+
+html {
+  overflow-x: hidden;
+}
+
+html,ul,li {
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+
+a {
+  color:inherit;
+  list-style:none;
+}
+
+/* 라이브러리 */ 
+.con {
+  min-width:1920px;
+}
+
+/* 커스텀 */
+
+.section-1 {
+  position:relative;
+  width:1920px;
+  height:1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 > .logo {
+  position: absolute;
+  width: 279px;
+  height: 74px;
+  left: 158px;
+  top: 71px;
+
+}
+
+.logo2 {
+  position: absolute;
+  top: 105px;
+  left: 440px;
+}
+
+.logo2 > a > img {
+  height: 30px;
+  width: 90px;
+}
+
+.section-1 > .menu-bar {
+  position: relative;
+  width: 1000px;
+  height: 27px;
+  left: 158px;
+  top: 173px;
+  text-transform:uppercase;
+  font-size:25px;
+  line-height:25px;
+}
+
+.section-1 > .menu-bar > a > span {
+  margin-right: 30px;
+}
+
+.section-1 > .menu-bar > a > span:first-child {
+  display: inline-block;
+}
+
+.section-1 > .menu-bar > a > span:first-child > p {
+  display: inline-block;
+  font-size: 10px;
+  top: -10px;
+  position: absolute;
+}
+
+.section-1 > .menu-bar > a > span:first-child > p:last-child {
+  top:-15px;
+  left:88px;
+}
+
+
+.section-1 > .menu-bar > a >  span:nth-of-type(4) {
+  position: absolute;
+  width: 110px;
+  height: 25px;
+  left: 115px;
+}
+
+.section-1 > .menu-bar > a>  span:nth-of-type(5)
+{
+  position:absolute;
+  left:245px;
+}
+
+.section-1 > .menu-bar > a>  span:nth-of-type(6) {
+  position:absolute;
+  left:325px;
+}
+
+.section-1 > .menu-bar >a> span:nth-of-type(7) {
+  position:absolute;
+  left:476px;
+}
+
+.section-1 > .menu-bar >a> span:hover {
+  color:#a9a9a9;
+  cursor:pointer;
+}
+
+.icon {
+  position: absolute;
+  width: 149px;
+  height: 33px;
+  left: 1803px;
+  top: 0px;
+}
+
+.icon > span:first-child {
+  position: absolute;
+  height: 33px;
+  width: 34px;
+  right: 307px;
+  top: 168px;
+}
+
+.icon > span:first-child > a > img {
+  width:34px;
+  height:33px;
+}
+
+
+.icon > span:nth-of-type(2) {
+  position: absolute;
+  height: 33px;
+  width: 34px;
+  right: 249px;
+  top: 168px;
+
+
+}
+
+.icon > span:nth-of-type(3) {
+  position: absolute;
+  height: 33px;
+  width: 34px;
+  right: 192px;
+  top: 168px;
+
+}
+
+.icon > span:nth-of-type(3) > a > img {
+  width:34px;
+  height:33px;
+}
+
+.img-box > a:first-child > img {
+  position: absolute;
+  width: 537px;
+  height: 710px;
+  left: 283px;
+  top: 350px;
+
+}
+
+.img-box > a:last-child > img {
+  position: absolute;
+  width: 537px;
+  height: 710px;
+  left: 1100px;
+  top: 350px;
+
+}
+
