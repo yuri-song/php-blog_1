@@ -59,6 +59,18 @@ require_once "head.php";
       </div>
     </div>
 
+    <div class="section section-2">
+      <div class="img-box">
+        <a href="pf/mobile1/index.ssghtml.php">
+          <img src="https://yuri-song.github.io/logo_image/web/1.png" alt=""></a>
+        <div>
+          <span class="name">2021 서울패션위크 리뉴얼 디자인</span>
+          <div class="bar"></div>
+          <a href="pf/web1/index.ssghtml.php"><button>WEBSITE</button></a>
+          <a href="pf/mobile1/index.ssghtml.php"><button>PROCESS</button></a>
+        </div>
+      </div>
+    </div>
 
 
 
