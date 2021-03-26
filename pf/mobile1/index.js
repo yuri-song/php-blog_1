@@ -1,5 +1,7 @@
 console.clear;
 
+const markers = false;
+
 gsap.registerPlugin(ScrollTrigger);
 
 let t1 = gsap.timeline({
@@ -7,7 +9,7 @@ let t1 = gsap.timeline({
         trigger: ".main_seaction3",
         start: "-=50 30%",
         end: "bottom 85%",
-        markers: true,
+        markers: markers,
         scrub: 0.3
     }
 });
@@ -36,7 +38,7 @@ let t2 = gsap.timeline({
         trigger: ".main_seaction4",
         start: "-=50 30%",
         end: "bottom 85%",
-        markers: true,
+        markers: markers,
         scrub: 0.3
     }
 });
@@ -52,7 +54,7 @@ let t3 = gsap.timeline({
         trigger: ".main_seaction7",
         start: "-=50 30%",
         end: "bottom 85%",
-        markers: true,
+        markers: markers,
         scrub: 0.3
     }
 });

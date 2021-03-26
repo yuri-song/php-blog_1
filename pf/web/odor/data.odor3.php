@@ -1,10 +1,10 @@
 <div class="con">
   <div class="section-1">
     <div class="logo">
-      <a href="odor2.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/LOGO.png" alt=""></a>
+      <a href="odor2.ssghtml.php"><img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/re/LOGO.png" alt=""></a>
     </div>
     <div class="logo2">
-      <a href="odor1.ssghtml.php"><img src="https://yuri-song.github.io/logo_image/re/0.png" alt=""></a>
+      <a href="odor1.ssghtml.php"><img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/re/0.png" alt=""></a>
     </div>
     <div class="menu-bar">
       <a href="odor3.ssghtml.php"><span>FOUND<p>O</p><p>D</p></span></a>
@@ -15,8 +15,8 @@
     </div>
     <div class="icon">
       <span><a href="#"><img src="https://github.com/yuri-song/logo_image/blob/master/re/icon3.png?raw=true" alt=""></a></span>
-      <span><a href="#"><img src="https://yuri-song.github.io/logo_image/re/icon1.png" alt=""></a></span>
-      <span><a href="#"><img src="https://yuri-song.github.io/logo_image/re/icon2.png" alt=""></a></span>    
+      <span><a href="#"><img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/re/icon1.png" alt=""></a></span>
+      <span><a href="#"><img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/ree/icon2.png" alt=""></a></span>    
     </div>
     <div class="catagory-bar">
       <span>EARRING</span>
@@ -32,12 +32,12 @@
     </div>
     
     <div class="intro">
-      <img src="https://yuri-song.github.io/logo_image/re/40.png" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/re/40.png" alt="">
     </div>
     <div class="product">
-      <img src="https://yuri-song.github.io/logo_image/re/41.png" alt="">
+      <img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/re/41.png" alt="">
       <div class="bottom">
-        <img src="https://yuri-song.github.io/logo_image/re/42.png" alt="">
+        <img src="https://cdn.jsdelivr.net/gh/yuri-song/logo_image/re/42.png" alt="">
       </div>
     </div>
   </div>

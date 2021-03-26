@@ -10,6 +10,13 @@ $articles = &getArticles();
 <script src="js/common.js" defer></script>
 <script src="js/index.js"></script>
 
+<script>
+  if (location.href.indexOf('index.html') === -1 && location.href.indexOf('index.html') === -1 &&
+    location.href.substr(-1, 1) !== '/') {
+    location.replace(location.href + '/');
+  }
+</script>
+
 <section class="section-title con-min-width">
   <h1 class="con">
     <span>
@@ -27,7 +34,8 @@ $articles = &getArticles();
       <ul>
         <?php foreach ( $articles as $article ) { ?>
         <li>
-          <h1 class="article-list-box__title"><a href="<?=getArticleLink($article["id"])?>"><?=$article["title"]?></a></h1>
+          <h1 class="article-list-box__title"><a href="<?=getArticleLink($article["id"])?>"><?=$article["title"]?></a>
+          </h1>
           <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article["writerName"]?></span>
